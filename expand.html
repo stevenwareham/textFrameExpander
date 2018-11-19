@@ -1,0 +1,27 @@
+<!doctype html>
+
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<script src="scripts/expand.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/expander.css">
+	</head>
+
+	<body>
+
+		<h1 class="expander">Example of expanding a textarea element&rsquo;s height by user input</h1>
+
+		<form id="expandingTextAreaBounds">
+			<p>Min Height: <input id="expandingMin" type="text" value="3" /></p>
+
+			<p>Max Height: <input id="expandingMax" type="text" value="10" /></p>
+
+			<button onclick="setverticalBounds()" type="button">Update</button>
+		</form>	
+
+		<textarea id="expandingTextArea"></textarea>
+
+	</body>
+
+</html>
